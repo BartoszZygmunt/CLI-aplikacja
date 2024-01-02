@@ -48,9 +48,7 @@ async function addContact(name, email, phone) {
   const contactWithSameName = contacts.find((contact) => contact.name === name);
 
   if (contactWithSameName) {
-    throw new Error(
-      `Contact with name ${name} already exists in contacts.`.bgRed
-    );
+    throw new Error(`Contact with name ${name} already exists!`.bgRed);
   }
 
   contacts.push(newContact);
