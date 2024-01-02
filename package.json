@@ -1,0 +1,21 @@
+{
+  "name": "cli-aplikacja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -a list",
+    "dev": "nodemon index.js -a list"
+  },
+  "author": "Bartosz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "nanoid": "^5.0.4"
+  }
+}
